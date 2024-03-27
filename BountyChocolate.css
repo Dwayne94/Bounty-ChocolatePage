@@ -1,0 +1,138 @@
+header h1
+{
+    font-size: 75px;
+    color: lightskyblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-image: url(..//Assignment3_200568219/Assets/BountyImage3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div 
+{
+    margin: 20px;
+}
+
+figure.figure1
+{
+    display: flex;
+    /*This will align the image vertically & horizontally in the central position*/
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* This centers the figure horizontally */
+}
+
+#bountygif
+{
+    border: solid rgb(31, 6, 88);
+    border-width: 7px;
+}
+
+h2
+{
+    font-size: 60px;
+    color: lightskyblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2:hover
+{
+    color: yellow;
+}
+
+p
+{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p:hover
+{
+    color: red;
+}
+
+h2.subheader
+{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section.section1
+{
+    display: flex;
+}
+
+#image1
+{
+    border: rgb(31, 6, 88);
+    border-style: solid;
+    border-width: 7px;
+    height: 500px;
+    width: 500px;
+}
+
+figcaption
+{
+    color: rgb(31, 6, 88);
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section.section2
+{
+    display: flex;
+}
+
+#image2
+{
+    border: rgb(31, 6, 88);
+    border-style: solid;
+    border-width: 7px;
+    height: 800px;
+    width: 800px;
+}
+
+footer
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer h1
+{
+    color: rgb(31, 6, 88);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(31, 6, 88);
+}
+
+button
+{
+    font-size: 25px;
+    background-color: rgb(31, 6, 88);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+
+
+
