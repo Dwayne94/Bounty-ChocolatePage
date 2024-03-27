@@ -27,10 +27,22 @@ figure.figure1
     margin: 0 auto; /* This centers the figure horizontally */
 }
 
+#logo1
+{
+    border: solid rgb(31, 6, 88);
+    border-width: 7px;
+    margin-right: 10px;
+    height: 500px;
+    width: 500px;
+}
+
 #bountygif
 {
     border: solid rgb(31, 6, 88);
     border-width: 7px;
+    margin-left: 10px;
+    height: 500px;
+    width: 500px;
 }
 
 h2
@@ -102,10 +114,35 @@ section.section2
     width: 800px;
 }
 
+#logo2
+{
+    height: 500px;
+    width: 500px;
+    border:rgb(31, 6, 88);
+    border-width: 7px;
+    margin-left: 10px;
+    border-style: double;
+}
+
+section.section3
+{
+    display: flex;
+}
+
 footer
 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+
+p.footer1:hover
+{
+    color: rgb(6, 183, 214);
+}
+
+p.footer2:hover
+{
+    color: brown;
 }
 
 footer h1
@@ -130,9 +167,3 @@ button
     font-weight: bold;
     padding: 5px;
 }
-
-
-
-
-
-
